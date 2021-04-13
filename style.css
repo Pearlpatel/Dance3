@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+
+}
+
+#image {
+    width: 300px;
+    height: 250px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5x;
+}
+
+#welcome {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(blue, green);
+    padding: 50px;
+    z-index: 9;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family:fantasy;
+    color: black;
+}
+p{
+    max-width:350px;
+    margin: 25px auto;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+}
+#menu{
+    background-color:#39CCCC;
+    list-style:none;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    cursor: pointer;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+    z-index:10;
+}
+.links{
+    float:left;
+    padding: 10px;
+    
+}
+.links:hover{
+    color:darkorange;  
+}
+#videos{
+     width:100%; 
+    margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(yellow,pink);
+}
+#Dance{
+   width:100%;
+    margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(teal,purple);
+}
+#Dancers{
+    width:100%;
+     margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(red,orange);
+}
+#remo{
+    width:300px;
+    height:300px;
+    
+}
+#TEDA{
+    width:100%;
+     margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(violet,blue,green );
+}
